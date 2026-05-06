@@ -29,3 +29,5 @@ print(pair.attributes(result))  # model attributes and settings
 print(pair.profile(result))  # species interaction profile summary
 
 print(obs.v.exp(result))  # observed vs expected co-occurrence comparison
+
+print(round(effect.sizes(result,matrix=TRUE),3))
